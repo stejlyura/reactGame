@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-start: #211245;
+    --bg-end: #0B0E19;
+  }
+  html, body, #root { height: 100%; }
+  body { @apply text-white antialiased; }
+}
+
+@layer utilities {
+  .perspective-1000 { perspective: 1000px; }
+  .preserve-3d { transform-style: preserve-3d; }
+  .backface-hidden { backface-visibility: hidden; }
+  .rotate-y-180 { transform: rotateY(180deg); }
+}
+
+
+@layer components {
+  .app-gradient {
+    background: linear-gradient(180deg, var(--bg-start), var(--bg-end));
+  }
+  .star-overlay {
+    background-image: url('/src/shared/assets/bg/stars.svg'); /* заміни шлях */
+    background-repeat: repeat;
+    background-position: top center;
+    opacity: .2;
+  }
+}
