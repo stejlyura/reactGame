@@ -1,0 +1,10 @@
+.app-gradient {
+  background: radial-gradient(circle at center, #5c2c91 0%, #3d1964 100%);
+}
+
+.star-overlay {
+  background-image: url('/Bg.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;
+}

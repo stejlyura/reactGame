@@ -1,13 +1,13 @@
 import { Modal } from '@/shared/ui/molecules/Modal';
 import { Button } from '@/shared/ui/atoms/Button';
 import { CounterUp } from '@/shared/ui/atoms/CounterUp';
-import { Cell } from '@/entities/cell/ui/CellCard';
+import {type Cell } from '@/entities/cell/ui/CellCard';
 import { Icon } from '@/shared/ui/atoms/Icon';
 
-import CashIcon from '@/shared/assets/icons/cash.svg';
-import X2Icon from '@/shared/assets/icons/x2.svg';
-import ZeroIcon from '@/shared/assets/icons/zero.svg';
-import BombIcon from '@/shared/assets/icons/bomb.svg';
+import CashIcon from '@/shared/assets/cash.png';
+import X2Icon from '@/shared/assets/x2.png';
+import ZeroIcon from '@/shared/assets/zero.png';
+import BombIcon from '@/shared/assets/bomb.png';
 
 const iconMap = { cash: CashIcon, x2: X2Icon, zero: ZeroIcon, bomb: BombIcon };
 

@@ -17,6 +17,21 @@
   .preserve-3d { transform-style: preserve-3d; }
   .backface-hidden { backface-visibility: hidden; }
   .rotate-y-180 { transform: rotateY(180deg); }
+    .glow-green { box-shadow: 0 10px 30px rgba(57, 255, 20, .35), inset 0 0 0 1px rgba(255,255,255,.15); }
+  .glow-red   { box-shadow: 0 10px 30px rgba(255, 64, 64, .35),  inset 0 0 0 1px rgba(255,255,255,.12); }
+  .glow-violet{ box-shadow: 0 10px 30px rgba(139, 92, 246, .35), inset 0 0 0 1px rgba(255,255,255,.12); }
+
+  .radial-burst-green {
+    background:
+      radial-gradient(closest-side, rgba(111, 255, 147, .55), transparent 60%),
+      repeating-conic-gradient(from 0deg, rgba(111,255,147,.22) 0 8deg, transparent 8deg 16deg);
+    filter: blur(.0px);
+  }
+  .radial-burst-red {
+    background:
+      radial-gradient(closest-side, rgba(255, 98, 98, .55), transparent 60%),
+      repeating-conic-gradient(from 0deg, rgba(255,98,98,.22) 0 8deg, transparent 8deg 16deg);
+  }
 }
 
 
