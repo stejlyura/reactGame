@@ -1,5 +1,34 @@
 # React + TypeScript + Vite
 
+Make sure you have npm installed before starting.
+
+1. Install dependencies
+
+Open the console in the project folder and run:
+
+npm install
+
+This command will install all required libraries and download any additional files needed for the project.
+
+2. Start the development server
+
+To launch the project in your browser, run:
+
+npm run dev
+
+After this, you can open the local address shown in the console (usually http://localhost:3000/).
+
+3. Build the project for production
+
+To generate a production build, run:
+
+npm run build
+
+The output files will be placed in the dist folder, ready for deployment.
+
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
